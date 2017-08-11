@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- encoding: utf-8 -*-
 
+import sys
 
-def debug_trace(self, frame, event, arg, indent=[0]):
+def debug_trace(frame, event, arg, indent=[0]):
     """ Debug trace """
 
     # Terminal colors
@@ -18,7 +19,7 @@ def debug_trace(self, frame, event, arg, indent=[0]):
         print(red + "<-", " " * indent[0], frame.f_code.co_name, clear)
         indent[0] -= 2
 
-    return self.debug_trace
+    return debug_trace
 
 if __name__ == '__main__':
-    sys.settrace(self.debug_trace)
+    sys.settrace(debug_trace)
