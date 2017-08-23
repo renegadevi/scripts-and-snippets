@@ -1,4 +1,4 @@
-# Cronjob for people who dislike Sysadmin :P
+# Cronjob, I dislike sysadmin tasks, I need a quick cheat sheet.
 
 View user crontabs: ```$ crontab -l```
 View other contrabs: ```# crontab -u <username> -l```
