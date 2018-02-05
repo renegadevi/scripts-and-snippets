@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
 
 def kmh_to_mph(kmh):
     return kmh * .621371192
