@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 def hex_to_rgb(value):
     """ Converts Hex color value #000000 into rgb(0, 0, 0)"""

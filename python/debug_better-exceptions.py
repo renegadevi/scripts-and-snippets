@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 """ Pretty and more helpful exceptions in Python, automatically.
 https://github.com/Qix-/better-exceptions (MIT-License)
