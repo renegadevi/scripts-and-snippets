@@ -22,7 +22,7 @@ logger.addHandler(handler)
 if debug == True:
     logger.setLevel(logging.DEBUG)
     handler = logging.StreamHandler(sys.stdout)
-    handler.setFormatter('[%(asctime)s] [%(name)s] (%(levelname)s) %(message)s'))
+    handler.setFormatter('[%(asctime)s] [%(name)s] (%(levelname)s) %(message)s')
     logger.addHandler(handler)
 
 # example
