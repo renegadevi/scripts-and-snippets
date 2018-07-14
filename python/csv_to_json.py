@@ -7,7 +7,7 @@ import json
 
 def csv_to_json(filename:str) -> str:
     """ Convert CSV file to JSON data """
-    if filename.endswith('csv'):
+    if filename.endswith('.csv'):
         return json.dumps(list(csv.reader(open(filename))))
     raise ValueError('No CSV file specified')
 
