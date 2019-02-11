@@ -1,6 +1,8 @@
-// Solution by Leo Dabus https://stackoverflow.com/a/47172167/10572532
+// Get currency based on country (Xcode 10, Swift 4.2 or later)
+//
+// Solution by Leo Dabus
+// https://stackoverflow.com/a/47172167/10572532
 
-// Get currency based on country
 extension Locale {
     static let currency = Locale.isoRegionCodes.reduce(into: [:]) {
         let locale = Locale(identifier: Locale.identifier(fromComponents: [NSLocale.Key.countryCode.rawValue: $1]))
