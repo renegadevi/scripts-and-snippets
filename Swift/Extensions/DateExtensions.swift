@@ -1,7 +1,13 @@
+//
+// DateExtensions.swift
+//
+
+//
 // Collection of Date extensions
 //
 // By making a 'extension' a 'public extension', we can use it everywhere where
 // Date is used depending on what project or use case you have.
+//
 
 public extension Date {
 
