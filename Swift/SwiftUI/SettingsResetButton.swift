@@ -1,5 +1,5 @@
 //
-// SettingsResetButton.swift.swift
+// SettingsResetButton.swift
 //
 // Example of an reset button you may see at the bottom of
 // settings view.
