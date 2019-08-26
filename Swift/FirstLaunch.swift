@@ -13,6 +13,9 @@
 // "Just use it wherever you want as UIApplication.isFirstLaunch() and be sure
 // to reach it at least once during first execution."
 //
+// Changes made:
+// - synchronize() method removed.
+//   (https://developer.apple.com/documentation/foundation/userdefaults/1414005-synchronize)
 
 import UIKit
 
@@ -26,7 +29,6 @@ extension UIApplication {
         if (isFirstLaunch) {
             firstLaunch = isFirstLaunch
             UserDefaults.standard.set("false", forKey: firstLaunchFlag)
-            UserDefaults.standard.synchronize()
         }
         return firstLaunch || isFirstLaunch
     }
