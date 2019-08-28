@@ -8,7 +8,7 @@ import Foundation
 
 extension UserDefaults {
 
-    public static func getUserDefaults() {
+    static func getUserDefaults() {
         let sortedKeys = UserDefaults.standard.dictionaryRepresentation().sorted{ $0.key < $1.key }
         for (key, value) in sortedKeys {
             NSLog("\(key) = \(value)")
