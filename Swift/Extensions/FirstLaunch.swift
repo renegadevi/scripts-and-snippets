@@ -19,7 +19,7 @@
 
 import UIKit
 
-private var firstLaunch : Bool = false
+private var firstLaunch: Bool = false
 
 extension UIApplication {
 
