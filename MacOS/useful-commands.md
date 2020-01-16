@@ -26,6 +26,9 @@ zsh-syntax-highlightning
 
 
 # Show hidden files
+
+**Note:** You can also toggle this by using cmd+shift+. (period) inside Finder in recent versions of MacOS.
+
 ```sh
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE; killall Finder
 ```
