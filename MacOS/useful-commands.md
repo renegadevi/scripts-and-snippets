@@ -30,7 +30,6 @@ zsh-syntax-highlightning
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE; killall Finder
 ```
 
-
 # Gatekeeper
 ```sh
 # Status
@@ -101,8 +100,7 @@ chflags nohidden ~/Library/
 
 # Enable Airdrop on older/unsupported Macs
 ```sh
-defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
-killall Finder
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1; killall Finder
 ```
 
 # Enable Sidecar on unsupported Macs (Catalina)
@@ -115,6 +113,5 @@ open /System/Library/PreferencePanes/Sidecar.prefPane
 
 # Display file extensions in Finder
 ```sh
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-killall Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true; killall Finder
 ```
