@@ -1,195 +1,196 @@
 # Useful MacOS software
 
--   **Bartender** - Hide menu bar icons in a secondary menu
+-   **Bartender** - Hide menu bar icons in a secondary menu<br>
     https://www.macbartender.com/
 
--   **Alt-tab-MacOS** - Windows style alt-tab windows switcher
+
+-   **Alt-tab-MacOS** - Windows style alt-tab windows switcher<br>
     https://github.com/lwouis/alt-tab-macos
 
--   **SwitchResX** - Get full control over your displays
+-   **SwitchResX** - Get full control over your displays<br>
     https://www.madrau.com/
 
--   **iTerm** - Powerful terminal emulator for MacOS
+-   **iTerm** - Powerful terminal emulator for MacOS<br>
     https://iterm2.com/
 
--   **Tower**  - Powerful and easy to use native Git client
+-   **Tower**  - Powerful and easy to use native Git client<br>
     https://www.git-tower.com/mac
 
--   **Alfred** - Powerful keyboard navigated workflow alternative for Spotlight.
+-   **Alfred** - Powerful keyboard navigated workflow alternative for Spotlight.<br>
     https://www.alfredapp.com/
 
--   **Magnet** - Tiling window manager. Windows Snap-feature on crack.
+-   **Magnet** - Tiling window manager. Windows Snap-feature on crack.<br>
     https://magnet.crowdcafe.com/
 
--   **1Password** - Excellent password manager with seamless sync functionality
+-   **1Password** - Excellent password manager with seamless sync functionality<br>
     https://1password.com/
 
--   **Lungo** - Prevent your Mac from going to sleep
+-   **Lungo** - Prevent your Mac from going to sleep<br>
     https://sindresorhus.com/lungo
 
--   **Typora** - Minimal WYSIWYG Markdown editor
+-   **Typora** - Minimal WYSIWYG Markdown editor<br>
     https://www.typora.io/
 
--   **VMWare Fusion** - First class supported Virtual Machine on macOS
+-   **VMWare Fusion** - First class supported Virtual Machine on macOS<br>
     https://www.vmware.com/products/fusion.html
 
--   **Yoink** - File shelf for drag and drop workflows
+-   **Yoink** - File shelf for drag and drop workflows<br>
     https://eternalstorms.at/yoink/mac/
 
--   **GIPHY Capture** - Easy to make gif videos
+-   **GIPHY Capture** - Easy to make gif videos<br>
     https://giphy.com/apps
 
--   **AppCleaner** - Thoroughly uninstall apps from your system
+-   **AppCleaner** - Thoroughly uninstall apps from your system<br>
     https://freemacsoft.net/appcleaner/
 
--   **Carbon Copy Cloner** - Clone drives and make Bootable backups
+-   **Carbon Copy Cloner** - Clone drives and make Bootable backups<br>
     https://bombich.com/
 
--   **Daisy Disk** - Disk analyzer
+-   **Daisy Disk** - Disk analyzer<br>
     https://daisydiskapp.com/
 
--   **Dark Knight** - Single click dark mode switch and automatic scheduler 
+-   **Dark Knight** - Single click dark mode switch and automatic scheduler<br>
     https://hobbyistsoftware.com/darknight
 
--   **Deeper** - Personalization utility for macOS
+-   **Deeper** - Personalization utility for macOS<br>
     https://www.titanium-software.fr/en/deeper.html
 
--   **Onyx** - Multifunction utility for macOS 
+-   **Onyx** - Multifunction utility for macOS<br>
     https://www.titanium-software.fr/en/onyx.html
 
--   **Vanilla** - Toggle to hide and show menubar icons
+-   **Vanilla** - Toggle to hide and show menubar icons<br>
     https://matthewpalmer.net/vanilla/
 
--   **HiddenMe** - Hide desktop icons with a menubar button
+-   **HiddenMe** - Hide desktop icons with a menubar button<br>
     https://apps.apple.com/us/app/hiddenme/id467040476?mt=12
 
--   **iMazing** (former DiskAid) - Get full control over your iOS device.
+-   **iMazing** (former DiskAid) - Get full control over your iOS device.<br>
     https://imazing.com/
 
--   **Keka** - Simple to use file archiver
+-   **Keka** - Simple to use file archiver<br>
     https://www.keka.io/en/
 
--   **Transnomino** - Advanced batch rename utility
+-   **Transnomino** - Advanced batch rename utility<br>
     https://transnomino.bastiaanverreijt.com/
 
--   **App Language Chooser** - Run selected app in a specific language
+-   **App Language Chooser** - Run selected app in a specific language<br>
     https://apps.apple.com/us/app/app-language-chooser/id451732904?mt=12
 
--   **MacCPUID** - Get information about Intel CPUs
+-   **MacCPUID** - Get information about Intel CPUs<br>
     https://software.intel.com/en-us/download/download-maccpuid
 
--   **Intel Power Gadget** - Power usage monitoring tool
+-   **Intel Power Gadget** - Power usage monitoring tool<br>
     https://software.intel.com/en-us/articles/intel-power-gadget
 
--   **SnippetsLab** - Code snippets manager
+-   **SnippetsLab** - Code snippets manager<br>
     https://www.renfei.org/snippets-lab/
 
--   **iConvert Icons** - Easy drag and drop export to icon formats.
+-   **iConvert Icons** - Easy drag and drop export to icon formats.<br>
     https://iconverticons.com/
 
--   **AdGuard Pro** - System-wide ad, tracking and malware protection
+-   **AdGuard Pro** - System-wide ad, tracking and malware protection<br>
     https://adguard.com/adguard-mac/overview.html
 
--   **KeyCastr** - Keystroke visualizer (good for example screencasts)
+-   **KeyCastr** - Keystroke visualizer (good for example screencasts)<br>
     https://github.com/keycastr/keycastr
 
--   **Karabiner-Elements** - Powerful keyboard customizer and remapper
+-   **Karabiner-Elements** - Powerful keyboard customizer and remapper<br>
     https://pqrs.org/osx/karabiner/
 
--   **Suspicious Package** - MacOS package installer inspector
+-   **Suspicious Package** - MacOS package installer inspector<br>
     https://www.mothersruin.com/software/SuspiciousPackage/
 
--   **BetterTouchTool** - Advanced input device customizer 
+-   **BetterTouchTool** - Advanced input device customizer<br> 
     https://folivora.ai/
 
--   **ImageOptim** - Optimize image size
+-   **ImageOptim** - Optimize image size<br>
     https://imageoptim.com/mac
 
--   **LittleSnitch** - Powerful firewall and network monitor tool
+-   **LittleSnitch** - Powerful firewall and network monitor tool<br>
     https://www.obdev.at/products/littlesnitch/index.html
 
--   **SoundControl** - Advanced audio controls for mac (per app EQ and volume control etc.)
+-   **SoundControl** - Advanced audio controls for mac (per app EQ and volume control etc.)<br>
     https://staticz.com/soundcontrol/
 
--   **BackgroundMusic** - Per app volume slider
+-   **BackgroundMusic** - Per app volume slider<br>
     https://github.com/kyleneideck/BackgroundMusic
 
--   **AirFoil** - Steam audio everywhere
+-   **AirFoil** - Steam audio everywhere<br>
     https://rogueamoeba.com/airfoil/mac/
 
--   **AudioHiJack** - Record any audio
+-   **AudioHiJack** - Record any audio<br>
     https://rogueamoeba.com/audiohijack/
 
--   **Farrago** - Sound board
+-   **Farrago** - Sound board<br>
     https://rogueamoeba.com/farrago/
 
--   **Loopback** - Software managed audio routing
+-   **Loopback** - Software managed audio routing<br>
     https://rogueamoeba.com/loopback/
 
--   **Sensei** - Performance dashboard and optimization tool (10.15+)
+-   **Sensei** - Performance dashboard and optimization tool (10.15+)<br>
     https://sensei.app/
 
 
 
 ## Notification Center widgets
 
--   **Calendarique** - Show a minimap with calender month and tasks
+-   **Calendarique** - Show a minimap with calender month and tasks<br>
     https://www.imagetasks.com/calendar-widget-for-osx/
 
--   **Netler** - Network monitor
+-   **Netler** - Network monitor<br>
     https://www.imagetasks.com/netler-network-monitor/
 
--   **MiniPlay** - MiniPlayer for iTunes and Spotify for use in menubar and Notification Center
+-   **MiniPlay** - MiniPlayer for iTunes and Spotify for use in menubar and Notification Center<br>
     https://daftlogicstudio.com/miniplay/
 
 
 
 ## Neat terminal software
 
--   **enhancd** - Next generation 'cd' command
+-   **enhancd** - Next generation 'cd' command<br>
     https://github.com/b4b4r07/enhancd
 
--   **cmus** - Terminal-based music player
+-   **cmus** - Terminal-based music player<br>
     https://cmus.github.io/
 
--   **glances** - cross platform system monitoring tool
+-   **glances** - cross platform system monitoring tool<br>
     https://nicolargo.github.io/glances/
 
--   **fx** - Syntax highlighted JSON Viewer
+-   **fx** - Syntax highlighted JSON Viewer<br>
     https://github.com/antonmedv/fx
 
--   **vj** - JSON Humanizer
+-   **vj** - JSON Humanizer<br>
     https://github.com/busyloop/vj
 
--   **mc** - Midnight Commander file manager
+-   **mc** - Midnight Commander file manager<br>
     https://midnight-commander.org/
 
--   **exa** - Modern 'ls' replacement
+-   **exa** - Modern 'ls' replacement<br>
     https://the.exa.website/
 
--   **weather-cli** - Check the weather for your city from your terminal
+-   **weather-cli** - Check the weather for your city from your terminal<br>
     https://github.com/riyadhalnur/weather-cli
 
--   **youtube-dl** - Command line tool to download youtube-videos
+-   **youtube-dl** - Command line tool to download youtube-videos<br>
     https://github.com/ytdl-org/youtube-dl
 
--   **bat** - Terminal file viewer "cat(1) clone with wings"
+-   **bat** - Terminal file viewer "cat(1) clone with wings"<br>
     https://github.com/sharkdp/bat
 
--   **htop** - Interactive Process Viewer
+-   **htop** - Interactive Process Viewer<br>
     https://hisham.hm/htop/
 
--   **tmux** - Terminal multiplexer
+-   **tmux** - Terminal multiplexer<br>
     https://github.com/tmux/tmux
 
--   **tldr** - Simplified community-driven man pages
+-   **tldr** - Simplified community-driven man pages<br>
     https://tldr.sh/
 
--   **spacevim** - Community-driven VIM distribution
+-   **spacevim** - Community-driven VIM distribution<br>
     https://spacevim.org
 
--   **httpie** - Command line HTTP client + downloader
+-   **httpie** - Command line HTTP client + downloader<br>
     https://httpie.org/
 
--   **neofetch** - Cross platform system information tool
+-   **neofetch** - Cross platform system information tool<br>
     https://github.com/dylanaraps/neofetch
