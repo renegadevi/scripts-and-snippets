@@ -14,7 +14,7 @@ There's two ways to fix this in Mojave. The easy one is to enable font smootheni
 
 ![Mojave-OFF](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-OFF.jpg)
 
-**Closeup After (mojave/1440p):**
+**Closeup After - HiDPi/Retina mode (Mojave/1440p):**
 
 ![Mojave-OFF](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-ON.jpg)
 
