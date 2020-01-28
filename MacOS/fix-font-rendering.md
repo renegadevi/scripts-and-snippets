@@ -10,13 +10,13 @@ There's two ways to fix this in Mojave. The easy one is to enable font smootheni
 
 ![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-01.png)
 
-**Closeup Before:**
+**Closeup Before (Mojave/1440p):**
 
-![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-OFF.png)
+![Mojave-OFF](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-OFF.jpg)
 
-**Closeup After:**
+**Closeup After (mojave/1440p):**
 
-![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-ON.png)
+![Mojave-OFF](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-ON.jpg)
 
 
 ---
