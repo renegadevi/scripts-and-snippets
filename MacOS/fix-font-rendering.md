@@ -10,6 +10,15 @@ There's two ways to fix this in Mojave. The easy one is to enable font smootheni
 
 ![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-01.png)
 
+**Closeup Before:**
+
+![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-OFF.png)
+
+**Closeup After:**
+
+![screenshot-01](https://gitlab.com/renegadevi/scripts-and-snippets/raw/master/MacOS/screenshots/fix-font-rendering-HiDPi_Mojave-ON.png)
+
+
 ---
 
 
