@@ -130,6 +130,9 @@
 -   **Sensei** - Performance dashboard and optimization tool (10.15+)<br>
     https://sensei.app/
 
+-   **Fantastical** - Advanced calendar app for Mac, iPad, iPhone and Watch
+    https://flexibits.com/fantastical
+
 
 
 ## Notification Center widgets
