@@ -1,8 +1,12 @@
 # Useful MacOS software
 
+
+On this list I just list the apps I recommend and would consider install on my own computers and/or would recommend to others, some which is very neat apps that's less popular, but highly useful that's not commonly seen in most of the "best apps"-list websites.
+
+---
+
 -   **Bartender** - Hide menu bar icons in a secondary menu<br>
     https://www.macbartender.com/
-
 
 -   **Alt-tab-MacOS** - Windows style alt-tab windows switcher<br>
     https://github.com/lwouis/alt-tab-macos
@@ -130,9 +134,29 @@
 -   **Sensei** - Performance dashboard and optimization tool (10.15+)<br>
     https://sensei.app/
 
--   **Fantastical** - Advanced calendar app for Mac, iPad, iPhone and Watch
+-   **Fantastical** - Advanced calendar app for Mac, iPad, iPhone and Watch<br>
     https://flexibits.com/fantastical
 
+-   **SiteSucker** - Download websites and download resources<br>
+    https://ricks-apps.com/osx/sitesucker/index.html
+
+-   **LaunchControl** - launchd GUI manager<br>
+    https://www.soma-zone.com/LaunchControl/
+
+-   **Patterns** - Tool for working with regular expressions.<br>
+    https://krillapps.com/patterns/
+
+-   **Little Snitch** - Extremly explicit Firewall and connection monitoring<br>
+    https://www.obdev.at/products/littlesnitch/index.html
+
+-   **Proxyman** - Proxy debugger, observe and manipulate HTTP/HTTPS requests.<br>
+    https://proxyman.io/
+
+-   **Sequel Pro** - Fast, easy-to-use MySQL database management<br>
+    http://www.sequelpro.com/
+
+-   **Table Plus** - Full featured database manager for Postgres, SQLite, MySQL, MariaDB, Redis etc.<br>
+    https://tableplus.com/
 
 
 ## Notification Center widgets
