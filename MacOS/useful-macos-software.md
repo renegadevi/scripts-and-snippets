@@ -8,6 +8,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **Bartender** - Hide menu bar icons in a secondary menu<br>
     https://www.macbartender.com/
 
+-   **Hidden** - Hide menu bar icons after separator on same row.<br>
+    https://github.com/dwarvesf/hidden
+
 -   **Alt-tab-MacOS** - Windows style alt-tab windows switcher<br>
     https://github.com/lwouis/alt-tab-macos
 
@@ -157,6 +160,19 @@ On this list I just list the apps I recommend and would consider install on my o
 
 -   **Table Plus** - Full featured database manager for Postgres, SQLite, MySQL, MariaDB, Redis etc.<br>
     https://tableplus.com/
+
+-   **Affinity** - Suite of design tools, designed from the ground up.<br>
+    https://affinity.serif.com
+
+-   **Discord** - Free communication and messaging tool.<br>
+    https://discordapp.com/
+
+-   **iPaste** - Simple clipboard manager.<br>
+    https://apps.apple.com/app/ipaste-clipboard-tool/id1056935452
+
+-   **coconutBattery** - Better battery information menubar icon and health checker.<br>
+    https://www.coconut-flavour.com/coconutbattery/
+
 
 
 ## Notification Center widgets
