@@ -122,6 +122,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **BackgroundMusic** - Per app volume slider<br>
     https://github.com/kyleneideck/BackgroundMusic
 
+-   **SoundSource** - Powerful volume control, per app and system controls, EQ etc.<br>
+    https://rogueamoeba.com/soundsource/
+
 -   **AirFoil** - Steam audio everywhere<br>
     https://rogueamoeba.com/airfoil/mac/
 
