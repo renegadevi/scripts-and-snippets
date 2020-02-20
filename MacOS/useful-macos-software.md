@@ -20,6 +20,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **iTerm** - Powerful terminal emulator for MacOS<br>
     https://iterm2.com/
 
+-   **CornerCal** - Adds simple calendar to your menubar clock<br>
+    https://github.com/ekreutz/CornerCal
+
 -   **Tower**  - Powerful and easy to use native Git client<br>
     https://www.git-tower.com/mac
 
