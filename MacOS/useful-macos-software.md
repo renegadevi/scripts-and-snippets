@@ -8,6 +8,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **Bartender** - Hide menu bar icons in a secondary menu<br>
     https://www.macbartender.com/
 
+-   **Dozer** - Alternative or can be used a long with Bartender, show/show menubar icons<br>
+    https://github.com/Mortennn/Dozer
+
 -   **Hidden** - Hide menu bar icons after separator on same row.<br>
     https://github.com/dwarvesf/hidden
 
