@@ -13,7 +13,7 @@ ffmpeg -i input.mp4 -f mp3 -vn output.mp3
 
 ## "Compress" video
 ```bash
-ffmpeg -i input.mp4 -vcodec H264 -acodec mp2 output.mp4
+ffmpeg -i input.mp4 -vcodec h264 -acodec mp2 output.mp4
 ```
 
 ## Remove audio from video
