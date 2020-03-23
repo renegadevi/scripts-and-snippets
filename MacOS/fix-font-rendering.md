@@ -32,7 +32,7 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 
 2. Press Enter, when it's done, close `Terminal.app`, log out and in again or reboot to make it take affect. 
 
-3. Go to **"System Preferences > General"** and you'll see the checkbox "Use font smoothing when avaiable" at the bottom. By checking and unchecking you can see the difference. The effect can look slighty different on different monitors.
+3. Go to **"System Preferences > General"** and you'll see the checkbox "Use font smoothing when available" at the bottom. By checking and unchecking you can see the difference. The effect can look slighty different on different monitors.
 
 
 
