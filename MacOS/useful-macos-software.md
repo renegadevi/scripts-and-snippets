@@ -182,6 +182,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **coconutBattery** - Better battery information menubar icon and health checker.<br>
     https://www.coconut-flavour.com/coconutbattery/
 
+-   **Lingon X** - Easy to use utility that run things automatically on your Mac.<br>
+    https://www.peterborgapps.com/lingon/
+
 
 
 ## Notification Center widgets
