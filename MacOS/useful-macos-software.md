@@ -185,6 +185,9 @@ On this list I just list the apps I recommend and would consider install on my o
 -   **Lingon X** - Easy to use utility that run things automatically on your Mac.<br>
     https://www.peterborgapps.com/lingon/
 
+-   **Sandkorn** - See what apps are sandboxed and their entitlements.<br>
+    https://www.peterborgapps.com/sandkorn/
+
 
 
 ## Notification Center widgets
