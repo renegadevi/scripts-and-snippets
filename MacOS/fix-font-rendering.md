@@ -72,7 +72,9 @@ Press enter. Afterwards, close `Terminal.app`, log out and in again or reboot to
 
 ## Render using HiDPi/Retina mode
 
-*__Note__: This can or will affect your GPU performance.*
+### Important Note
+- This can or will affect your GPU performance.
+- I have not validated this works with high resolution (such as ultrawides with 5120x1440px).
 
 If you're still not happy with the font-rendering you can go yet another step and use this more advanced method. With this method we tell the system that we have a HiDPI display by rendering twice the resolution which then scales down to our monitor. This will enable the Retina sharp font-rendering and if you like me rely on the **Accessibility zoom** feature, this will make zoom as well as screenshots sharper.
 
