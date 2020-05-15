@@ -1,7 +1,6 @@
-
 # Disable image smoothing on Firefox
 
-Depending on what use u may hjave, you may want to disable image-smoothening in the browser. For me, I did not want PNG to be smoothened because it's often used for design which would blur images on a site like Dribbble.
+Depending on what use u may have, you may want to disable image-smoothening in the browser. For me, I did not want PNG to be smoothened because it's often used for design which would blur images on a site like Dribbble. Be aware, by disable image smoothening it causes it to look worse when scaled down as it doesn't get smoothered.
 
 This is a guide based on the source: https://nullsleep.tumblr.com/post/16417178705/how-to-disable-image-smoothing-in-modern-web
 
