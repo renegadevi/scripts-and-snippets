@@ -72,3 +72,20 @@ for f in *.mkv;do ffmpeg -i "$f" -c copy "${f%mkv}mp4";done;rm *.mkv
 ```sh
 ffmpeg -y -i input.mov -vcodec wmv2 -qscale:v 3 -b 10000k output.wmv
 ```
+
+# ffplay
+
+## Play a video on repeat
+```sh
+ffplay -loop 0 movie.mp4
+```
+
+## Play a video in specific size
+```sh
+ffplay -x 480 -y 360 movie.mp4
+```
+
+## Play a video borderless and screen position
+```sh
+ffplay -noborder -left 0 -top 0 movie.mp4
+```
