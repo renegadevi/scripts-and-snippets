@@ -5,10 +5,14 @@
 youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 URL
 ```
 
-
 ## Download MP4 with highest quality
 ```sh
 youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4’ URL
+```
+
+## Download best format, if mp4 exist pick that one
+```sh
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
 ```
 
 ## Create alias for simple use
