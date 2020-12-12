@@ -1,6 +1,6 @@
 # How to install MacOS BigSur in VMWare Fusion
 
-You do not need to be running BigSur to be able to use a BigSur in a VM and not even newest version of VMWare Fusion, neither latest updates. This works tested and used this on VMWare Fusion 11 on Mojave.
+You do not need to be running BigSur to be able to use a BigSur in a VM and not even latest version or updates for VMWare Fusion. This method works great and is tested as far back as VMWare Fusion 11 on Mojave.
 
 *Note: Due to the nature of MacOS and virtualization you won't get a fully smooth GPU performance. If you're on latest VMware Fusion 12, they have added support for eGPU, however afaik, there's no support for GPU-passthrough (yet).*
 
@@ -10,32 +10,32 @@ You do not need to be running BigSur to be able to use a BigSur in a VM and not 
 https://apps.apple.com/us/app/macos-big-sur/id1526878132?mt=12
 
 ### Alternative 2: Installer assistent
-If you don't want to use the App Store you can download the Installer assistent directly from Apple. 
+If you don not want to use the App Store you can download the Installer assistent directly from Apple. 
 
 http://swcdn.apple.com/content/downloads/50/49/001-79699-A_93OMDU5KFG/dkjnjkq9eax1n2wpf8rik5agns2z43ikqu/InstallAssistant.pkg
 
-Once downloaded and you have run the pkg, it will end up in your `/Applications` folder just like if you had downloaded from the Mac App Store in the first place.
+Once downloaded and you have run the pkg, the MacOS installer will end up in your `/Applications` folder just like if you had downloaded from the Mac App Store in the first place.
 
 
 ## 2. Preparing a ISO for VMWare
 
-This is to prevent any issues during install. You can do part in many different ways but this is the most reliable way I found to do it.
+This is to prevent any issues during install. You can do this part in many different ways but this is the most reliable way I found to do it.
 
 Start by open up `Terminal.app`
 
 ### Create a volume
 ```sh
-hdiutil create -o BigSur2 -size 13000m -volname BigSur2 -layout SPUD -fs HFS+J
+hdiutil create -o BigSur -size 13000m -volname BigSur -layout SPUD -fs HFS+J
 ```
 
 ### Attach volume
 ```sh
-hdiutil attach BigSur2.dmg -noverify -mountpoint /Volumes/BigSur2
+hdiutil attach BigSur.dmg -noverify -mountpoint /Volumes/BigSur
 ```
 
 ### Create install media
 ```sh
-sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSur2 --nointeraction
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSur --nointeraction
 ```
 
 ### Eject it
@@ -45,12 +45,12 @@ hdiutil eject -force /Volumes/Install\ macOS\ Big\ Sur
 
 ### Convert to UDTO as a DVD master
 ```sh
-hdiutil convert BigSur2.dmg -format UDTO -o BigSur2
+hdiutil convert BigSur.dmg -format UDTO -o BigSur
 ```
 
 ### Rename to ISO
 ```sh
-mv -v BigSur2.cdr BigSur2.iso
+mv -v BigSur.cdr BigSur.iso
 ```
 
 ## 3. Creating the VM
@@ -76,9 +76,9 @@ mv -v BigSur2.cdr BigSur2.iso
 
 3. Open Disk Utility
 
-4. Select the VM drive, press Erase and choose APFS and rename the name if you want.
+4. Select the VM drive, press Erase and choose APFS and rename the drive if you want.
 
-5. Close Disk Utility, continue installation, and proceed with the initial setup post-install.
+5. Close Disk Utility, continue installation, and proceed with the initial post-install setup.
 
 6. Once you reach the MacOS desktop. Eject the Install DVD from desktop.
 
@@ -91,29 +91,27 @@ Take a Snapshot in VMWare to save a clean installation to have something to dupl
 
 ### VMware Tools
 
-This will enable better VM and window scaling and make some good GPU enhancements that make it way more more usable in daily use and fixes laggy graphics and mouse movement behaviour.
+This will enable better VM and window scaling and make some good GPU enhancements that makes it way more more usable in daily use and fixes laggy graphics and mouse movement behaviour.
 
 1. Shut down the VM
 
-2. Open Virtual Machine > Settings > Display
+2. Go to Virtual Machine > Settings > Display
 
-3. Select Accelerate 3D Graphics. I use 512MB as shared graphics memory. 
+3. Check the "Accelerate 3D Graphics" checkbox. (I use 512MB as shared graphics memory.)
 
-4. Start the VM again.
+4. Boot the VM again.
 
-5. Virtual Machine > Install VMWare Tools, Press Install, then "Install VMWare Tools"
+5. Go to Virtual Machine > Install VMWare Tools, Press Install, then run the "Install VMWare Tools" installer.
 
-6. Continue with the VMware Tools installer
-
-7. You'll get popup(s) with "System Extension Blocked" during the installer.
+6. You'll get popup(s) saying "System Extension Blocked" during the installer.
 
     1. Press "Open Security Preferences" and unlock the settings to press "Allow"
 
     2. The VMWare Tools Installer will finish as system preferences will prompt to require you rebooting before it can be used, press "Restart" to reboot.
 
-8. Once rebooted, Accessibility Access will prompt you to allow it. 
+7. Once rebooted, Accessibility Access will prompt you to allow vmware tools daemon to control your system. 
 
-9. Press "Open System Preferences", unlock settings and mark the checkbox to allow VMWare to control the behaviour.
+8. Press "Open System Preferences", unlock settings and mark the checkbox to allow VMWare to control.
 
 9. Done. Take a new Snapshot.
 
