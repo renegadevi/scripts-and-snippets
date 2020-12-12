@@ -16,6 +16,11 @@ http://swcdn.apple.com/content/downloads/50/49/001-79699-A_93OMDU5KFG/dkjnjkq9ea
 
 Once downloaded and you have run the pkg, the MacOS installer will end up in your `/Applications` folder just like if you had downloaded from the Mac App Store in the first place.
 
+### Alernative 3: gibMacOS
+
+If you're more of an advanced user, you may use gibMacOS. It's a python terminal script which downloads components directly from Apple, made by CorpNewt. 
+
+https://github.com/corpnewt/gibMacOS
 
 ## 2. Preparing a ISO for VMWare
 
