@@ -2,7 +2,7 @@
 
 You do not need to be running BigSur to be able to use a BigSur in a VM and not even newest version of VMWare Fusion, neither latest updates. This works tested and used this on VMWare Fusion 11 on Mojave.
 
-Note: Due to the nature of MacOS and nature of virtualization you won't get full GPU performance.
+*Note: Due to the nature of MacOS and virtualization you won't get a fully smooth GPU performance. If you're on latest VMware Fusion 12, they have added support for eGPU, however afaik, there's no support for GPU-passthrough (yet).*
 
 ## 1. Downloading MacOS BigSur
 
