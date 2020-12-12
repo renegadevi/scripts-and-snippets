@@ -12,10 +12,9 @@ https://apps.apple.com/us/app/macos-big-sur/id1526878132?mt=12
 ### Alternative 2: Installer assistent
 If you don't want to use the App Store you can download the Installer assistent directly from Apple. 
 
-Once downloaded and you have run the pkg, it will be end up in the /Applications folder as if you had downloaded from the Mac App Store in the first place.
-
 http://swcdn.apple.com/content/downloads/50/49/001-79699-A_93OMDU5KFG/dkjnjkq9eax1n2wpf8rik5agns2z43ikqu/InstallAssistant.pkg
 
+Once downloaded and you have run the pkg, it will end up in your `/Applications` folder just like if you had downloaded from the Mac App Store in the first place.
 
 
 ## 2. Prepare a ISO for VMWare
