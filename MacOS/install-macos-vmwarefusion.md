@@ -78,9 +78,60 @@ mv -v BigSur2.cdr BigSur2.iso
 
 5. Close Disk Utility, continue installation, and proceed with the initial setup post-install.
 
-6. Done. 
+6. Once you reach the MacOS desktop. Eject the Install DVD from desktop.
 
-7. Optional: Take a Snapshot in VMWare to save a clean installation to have something to duplicate and or revert back to.
+6. Done.
+
+
+## 5. Optional steps
+
+Take a Snapshot in VMWare to save a clean installation to have something to duplicate and or revert back to.
+
+### VMware Tools
+
+This will enable better VM and window scaling and make some good GPU enhancements that make it way more more usable in daily use and fixes laggy graphics and mouse movement behaviour.
+
+1. Shut down the VM
+
+2. Open Virtual Machine > Settings > Display
+
+3. Select Accelerate 3D Graphics. I use 512MB as shared graphics memory. 
+
+4. Start the VM again.
+
+5. Virtual Machine > Install VMWare Tools, Press Install, then "Install VMWare Tools"
+
+6. Continue with the VMware Tools installer
+
+7. You'll get popup(s) with "System Extension Blocked" during the installer. 
+    1. Press "Open Security Preferences" and unlock the settings to press "Allow"
+    2. The VMWare Tools Installer will finish as system preferences will prompt to require you rebooting before it can be used, press "Restart" to reboot.
+
+8. Once rebooted, Accessibility Access will propmt you to allow it. 
+    1. Press "Open System Preferences", unlock settings and mark the checkbox to allow VMWare to control the behaviour.
+
+9. Done. Take a new Snapshot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
