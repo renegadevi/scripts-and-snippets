@@ -17,9 +17,11 @@ http://swcdn.apple.com/content/downloads/50/49/001-79699-A_93OMDU5KFG/dkjnjkq9ea
 Once downloaded and you have run the pkg, it will end up in your `/Applications` folder just like if you had downloaded from the Mac App Store in the first place.
 
 
-## 2. Prepare a ISO for VMWare
+## 2. Preparing a ISO for VMWare
 
-Open up `Terminal.app` and let's get started
+This is to prevent any issues during install. You can do part in many different ways but this is the most reliable way I found to do it.
+
+Start by open up `Terminal.app`
 
 ### Create a volume
 ```sh
@@ -51,7 +53,7 @@ hdiutil convert BigSur2.dmg -format UDTO -o BigSur2
 mv -v BigSur2.cdr BigSur2.iso
 ```
 
-## 3. Let's create our VM
+## 3. Creating the VM
 
 1. Start up VMWare Fusion.
 
@@ -103,12 +105,15 @@ This will enable better VM and window scaling and make some good GPU enhancement
 
 6. Continue with the VMware Tools installer
 
-7. You'll get popup(s) with "System Extension Blocked" during the installer. 
+7. You'll get popup(s) with "System Extension Blocked" during the installer.
+
     1. Press "Open Security Preferences" and unlock the settings to press "Allow"
+
     2. The VMWare Tools Installer will finish as system preferences will prompt to require you rebooting before it can be used, press "Restart" to reboot.
 
-8. Once rebooted, Accessibility Access will propmt you to allow it. 
-    1. Press "Open System Preferences", unlock settings and mark the checkbox to allow VMWare to control the behaviour.
+8. Once rebooted, Accessibility Access will prompt you to allow it. 
+
+9. Press "Open System Preferences", unlock settings and mark the checkbox to allow VMWare to control the behaviour.
 
 9. Done. Take a new Snapshot.
 
